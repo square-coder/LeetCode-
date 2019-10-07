@@ -10,7 +10,7 @@
 
 
 ## 个人解法
-```
+```c
 int game(int* guess, int guessSize, int* answer, int answerSize){
     int right = 0;
     for(int i = 0; i < guessSize; i ++) {
